@@ -104,6 +104,30 @@ pnpm dev --port 8023
 
 open `http://localhost:8023` for preview
 
+## 简介
+
+立项当初是想做 AI 版网易云音乐，收录了 30 万首 AI 歌曲。
+
+实现了歌曲发现榜 / 流行榜 / 新歌榜 / 随机漫游 / 歌曲收藏 / 最近播放 / 歌曲导入 / 歌曲分享等功能。
+
+原创音乐播放器组件，支持顺序播放 / 随机播放 / 单曲循环三种播放模式，可控制播放进度，可控制音量。
+
+支持暗黑主题 / 多语言 / 谷歌登录 / Stripe 支付。
+
+服务端渲染歌曲详情构建海量页面，关键词覆盖密度大，SEO 友好。
+
+## 技术栈包含：
+
+- nextjs + typescript 全栈开发
+- tailwindcss + shadcn 前端组件
+- google-one-tap 谷歌快捷登录
+- next-auth 用户鉴权
+- next-intl 多语言
+- supabase + pg 数据读写
+- stripe-js 网页支付
+
+可一键部署到 Vercel，可通过 Docker 部署。
+
 ## Credit to
 
 - [aiwallpaper](https://aiwallpaper.shop) for code reference
